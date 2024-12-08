@@ -1,3 +1,29 @@
+.home{
+    position: relative;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 4em;
+    color:hsl(353, 100%, 9%);
+    text-shadow: rgb(255, 0, 140) 10px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+/* unvisited link */
+a:link {
+    color: hsl(269, 100%, 50%);
+  }
+
+/* visited link */
+a:visited {
+    color: hsl(247, 100%, 50%);
+  }
+
+
+
+
 body{
     background-color: #f2f1d0c6;
     overflow-x: hidden;  
