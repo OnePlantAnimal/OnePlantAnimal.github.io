@@ -267,7 +267,7 @@ footer{
 
 /* unvisited link */
 a:link {
-    color: hsl(269, 100%, 50%);
+    color: #800080;
   }
 
 /* visited link */
