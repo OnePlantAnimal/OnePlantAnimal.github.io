@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Lapidary333Italic'; /*a name to be used later*/
+    src: url(fontfaces/Lapidary_333/Lapidary_333_Italic/Lapidary_333_Italic.otf)
+}
+@font-face {
+    font-family: 'Lapidary333Bold'; /*a name to be used later*/
+    src: url(fontfaces/Lapidary_333/Lapidary_333_Bold/Lapidary_333_Bold.otf)
+}
+@font-face {
+    font-family: 'Lapidary333Regular'; /*a name to be used later*/
+    src: url(fontfaces/Lapidary_333/Lapidary_333_Regular/Lapidary_333_Regular.otf)
+}
+
+/*
+@keyframes pulse {
+    0%, 100% {
+      background-color: #758e3b;
+    }
+     61.8% {
+      background-color:  #90870e;
+    }
+
+  }
+    */
+
+body{
+    background-color: #5b0b0060;
+    overflow-x: hidden;  
+    animation: pulse 77s infinite;
+    background-image: url(images/transparentTuring.png);
+    background-blend-mode: color-burn;
+    
+}
+
+.title_container{
+    margin: auto;
+    margin-top: 2em;
+    margin-left: -1%;
+    width: 90%;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.title_top{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 10em;
+    color:hsl(353, 100%, 9%);
+    text-shadow: rgb(255, 0, 140) 10px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+
+.title_bottom{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 10em;
+    color:hsla(353, 100%, 9%, 0.479);
+    text-shadow: rgba(255, 0, 140, 0.284) 5px 1px 1px, rgba(255, 204, 0, 0.236) 2px 1px 10px;
+    transform: rotate(2deg);
+    filter: blur(1px);
+    mix-blend-mode: color-burn;
+    z-index: 1;
+}
+
+
+.title_box{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 8.89em;
+    color:hsla(353, 100%, 9%, 0);
+    text-shadow: rgba(255, 0, 140, 0) 10px 1px 10px, rgba(255, 204, 0, 0) 2px 1px 10px, rgba(255, 204, 0, 0) 2px 1px 10px, rgba(255, 204, 0, 0) 2px 1px 10px;
+    transform: rotate(2deg);
+}
+
+.column{
+    display: flex;
+    text-align: center;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+
+@media (max-width: 850px) {
+    .title_top {
+        margin-top: -0.2em;
+        font-size: 18vw;
+        font-weight: 100;
+        text-shadow: rgba(255, 0, 140, 0.79) 10px 1px 8px, rgba(255, 204, 0, 0.948) 2px 1px 10px, rgba(255, 204, 0, 0.948) 2px 1px 8px, rgba(255, 204, 0, 0.837) 2px 1px 6px, rgba(255, 204, 0, 0.707) 2px 1px 6px;
+        transform: rotate(0deg) scaleX(1.1);
+
+
+    }
+    .title_bottom {
+        margin-top: -0.2em;
+        font-size: 18vw;
+        font-weight: 500;
+        text-shadow: rgba(255, 0, 140, 0.239) 5px 1px 0.5px, rgba(255, 204, 0, 0.175) 2px 1px 5px;
+        transform: rotate(0deg) scaleX(1.1);
+
+    }
+    .title_box{
+        margin-top: -0.2em;
+        font-size: 18vw;
+        font-weight: 100;
+        transform: rotate(0deg) scaleX(1.1);
+    }
+    .title_container{
+        margin-top: -0.2em;
+        margin-left: -3%;
+        margin-top: 2.5em;
+
+    }
+}
+
+.blurb{
+    
+    display:flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 1.5em;
+    position: relative;
+    text-align: right;
+    margin-right: 3em;
+    text-wrap:wrap;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    /*font-size: 2.5em;
+    color:hsla(264, 98%, 17%, 0.057);
+    transform: scalex(1.5) scaley(2) rotate(-1.614deg);*/
+    font-size: 3.75em;        
+    color:hsla(264, 98%, 17%, 0.057);
+    transform: scalex(1.0 ) scaley(1.4) rotate(-1.614deg);
+    text-shadow: #FC0 3px 2px 8px, rgba(255, 0, 140, 0.344) 5px 2px 5px, hsla(264, 100%, 50%, 0.447) 10px 2px 5px;
+    z-index: 1;
+}
+
+
+@media (max-width: 1400px) {
+    .blurb{
+        margin-top: 1.3em;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 3.5em;
+        margin-bottom: 0.4em;
+        transform: scalex(0.9) scaley(1.8) rotate(-1.614deg);
+        text-shadow: #FC0 3px 2px 7px, rgba(255, 0, 140, 0.344) 5px 2px 5px, hsla(264, 100%, 50%, 0.447) 10px 2px 5px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .blurb{
+        width: 100%;
+        text-wrap:balance;
+        margin-top: 1em;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.4em;
+        margin-bottom: 0.2em;
+        transform: scalex(0.9) scaley(6) rotate(-1.614deg);
+        text-shadow: #FC0 3px 2px 5px, rgba(255, 0, 140, 0.344) 5px 2px 5px, hsla(264, 100%, 50%, 0.447) 10px 2px 5px;
+        
+    }
+
+}
+
+
+.table_title{
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+    margin-bottom:0.2em;
+    text-align: center;
+    text-decoration:underline dotted 150px;
+    font-family: "Lapidary333Regular";
+    font-size: 9em;
+    font-weight: 200;
+    color:hsla(354, 100%, 2%, 0.91);
+    text-shadow: #08002e39 2px 1px 2px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+    transform: scaley(0.333) rotate(0deg);
+}
+@media (max-width: 1400px) {
+    .table_title{
+        justify-content: center;
+    }
+    
+}
+
+
+.page_list{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    height:0;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.8em;
+    text-wrap: wrap;
+    text-align: left;
+    font-family: "Lapidary333Italic";
+    font-size: 9em;
+    font-weight: 200;
+    color:hsl(247, 100%, 50%);
+    text-shadow: rgba(0, 4, 255, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+    transform: scaley(0.33) rotate(0deg);
+}
+@media (max-width: 1400px) {
+    .page_list{
+        justify-content: center;
+    }
+}
+@media (max-width: 550px) {
+    .page_list{
+        margin-bottom: 1em;
+        justify-content: center;
+    }
+}
+    
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:#8b7a3a;;
+    filter: invert(1);
+    mix-blend-mode:difference;
+}
+
