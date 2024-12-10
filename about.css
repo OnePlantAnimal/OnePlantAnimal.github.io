@@ -29,9 +29,34 @@ body{
     overflow-x: hidden;  
     animation: pulse 77s infinite;
     background-image: url(images/transparentTuring.png);
-    background-blend-mode: color-burn;
     font-family: "Cormorant Garamond", serif;
-    font-style: italic;
+    font-style:normal;
+    background-repeat:unset;
 }
 
+#redWord1{
+  color: hsl(353, 100%, 50%);
+}
+#redWord2{
+  color: hsl(353, 100%, 50%);
+}
+#redWord3{
+  color: hsl(353, 100%, 50%);
+}
+
+#finger{
+  width: 100%;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+.red{
+  display: inline-block;
+}
+
+#fingerLabel{
+  text-align: center;
+}
 

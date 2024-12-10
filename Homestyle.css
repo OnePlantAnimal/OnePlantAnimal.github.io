@@ -25,11 +25,14 @@
 
 body{
     background-color: #5b0b0060;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     overflow-x: hidden;  
-    animation: pulse 77s infinite;
     background-image: url(images/transparentTuring.png);
     background-blend-mode: color-burn;
-    
+    transform: translate3d(0,0,0);
+    background-repeat: no-repeat;
 }
 
 .title_container{
@@ -39,6 +42,7 @@ body{
     width: 90%;
     text-align: center;
     padding: 0px;
+
 }
 
 
@@ -180,7 +184,7 @@ body{
         text-align: center;
         font-size: 2.4em;
         margin-bottom: 0.2em;
-        transform: scalex(0.9) scaley(6) rotate(-1.614deg);
+        transform: scalex(1.2) scaley(5) rotate(-1.614deg);
         text-shadow: #FC0 3px 2px 5px, rgba(255, 0, 140, 0.344) 5px 2px 5px, hsla(264, 100%, 50%, 0.447) 10px 2px 5px;
         
     }
