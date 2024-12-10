@@ -213,6 +213,12 @@ body{
     .table_title{
         justify-content: center;
     }
+}
+
+@media (max-width: 450px) {
+    .table_title{
+        font-size: 7em;
+    }
     
 }
 
@@ -280,6 +286,4 @@ a:visited {
   }
   
 
-  
- 
   
