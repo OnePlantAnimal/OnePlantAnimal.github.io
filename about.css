@@ -11,15 +11,7 @@
     z-index: 1;
 }
 
-/* unvisited link */
-a:link {
-    color: #800080;
-  }
 
-/* visited link */
-a:visited {
-    color: hsl(247, 100%, 50%);
-  }
 
 
 
@@ -60,3 +52,33 @@ img:hover {
   text-align: center;
 }
 
+#contact{
+  text-align: center;
+}
+
+#group{
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #800080;
+}
+
+/* visited link */
+a:visited {
+  color: hsl(247, 100%, 50%);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+  color:#8b7a3a;;
+  filter: invert(1);
+  mix-blend-mode:difference;
+}

@@ -31,7 +31,7 @@ body{
     overflow-x: hidden;  
     background-image: url(images/transparentTuring.png);
     background-blend-mode: color-burn;
-    transform: translate3d(0,0,0);
+    /*transform: translate3d(0,0,0); */
     background-repeat: no-repeat;
 }
 
@@ -262,6 +262,10 @@ body{
 
 
 
+
+
+
+
 footer{
     position: fixed;
     bottom: 0;
@@ -274,6 +278,7 @@ footer{
     filter: invert(1);
     mix-blend-mode:difference;
 }
+
 
 /* unvisited link */
 a:link {
