@@ -21,7 +21,12 @@ background-image: url(/images/transparentTuring.png);
 background-blend-mode:color-burn;
 /*transform: translate3d(0,0,0); */
 background-repeat: no-repeat;
+font-family: "EB Garamond";
+font-weight: normal;
+color:hsl(247, 100%, 5%);
+text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
 }
+
 
 #redWord1{
   color: hsl(353, 100%, 50%);
@@ -67,7 +72,22 @@ a:visited {
   color: hsl(247, 100%, 12%);
 }
 
-footer{
+p {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 800px) {
+  p {
+    font-size: 5vw;
+  }
+}
+p.indent {
+  text-indent: 2.5em; /* or whatever indent size you prefer */
+}
+
+
+footer p{
   position: fixed;
   bottom: 0;
   right: 0;
@@ -78,12 +98,14 @@ footer{
   color:#8b7a3a;;
   filter: invert(1);
   mix-blend-mode:difference;
+  font-size: 1em;
 }
 
 .title{
   display: flex;
   justify-content: flex-start;
   position: relative;
+  flex-wrap: wrap;
   margin: 0; /* Remove all margins */
   padding: 0; /* Remove all padding */
   text-align: center;
@@ -94,6 +116,11 @@ footer{
   text-shadow: #08002e39 2px 1px 2px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
   transform: scaley(0.333) rotate(0deg);
   line-height: 0.333;
+}
+@media (max-width: 800px) {
+  .title {
+    font-size: 30vw;
+  }
 }
 
 .entries_title{
@@ -115,8 +142,8 @@ footer{
   .entries_title{
       font-size: 7em;
   }
-  
 }
+
 
 
 .entries_list{
@@ -153,5 +180,62 @@ footer{
       margin-bottom: 1em;
   }
 }
+
+
+
+.post_title{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  height:0.1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.8em;
+  text-wrap: wrap;
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 7em;
+  font-weight: 200;
+  color:hsl(247, 100%, 5%);
+  text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+  transform: scaley(0.8) rotate(0deg);
+  text-decoration-thickness: 25px;
+  line-height: 1;
+}
+@media (max-width: 800px) {
+  .post_title{
+    font-size: 13vw;
+  }
+}
+@media (max-width: 550px) {
+  .post_title{
+    font-size: 13vw;
+      margin-bottom: 1em;
+  }
+}
   
-  
+.date{
+  font-family: "EB Garamond";
+  font-size: 1em;
+  font-weight: 200;
+  color:hsl(247, 100%, 5%);
+  text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+}
+
+.faded-border {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  mask: 
+    linear-gradient(to right, transparent 0px, black 1em, black calc(100% - 1em), transparent 100%),
+    linear-gradient(to bottom, transparent 0px, black 1em, black calc(100% - 1em), transparent 100%);
+  mask-composite: intersect;
+  -webkit-mask: 
+    linear-gradient(to right, transparent 0px, black 1em, black calc(100% - 1em), transparent 100%),
+    linear-gradient(to bottom, transparent 0px, black 1em, black calc(100% - 1em), transparent 100%);
+  -webkit-mask-composite: source-in;
+}
