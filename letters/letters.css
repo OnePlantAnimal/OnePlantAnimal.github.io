@@ -42,9 +42,6 @@ text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 
   width: 100%;
 }
 
-img:hover {
-  transform: scaleX(-1);
-}
 
 .red{
   display: inline-block;
