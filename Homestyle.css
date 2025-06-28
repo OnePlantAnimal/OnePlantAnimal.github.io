@@ -44,7 +44,9 @@
 
 body{
     background-color: #5b0b0060;
- 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;

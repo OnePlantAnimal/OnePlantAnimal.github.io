@@ -12,6 +12,9 @@
 }
 
 body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   background-color: #0e9014;
 -webkit-appearance: none;
 -moz-appearance: none;
