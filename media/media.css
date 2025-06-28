@@ -118,6 +118,11 @@ footer p{
   transform: scaley(0.333) rotate(0deg);
   line-height: 0.333;
 }
+@media (max-width: 800px) {
+  .title {
+    font-size: 30vw;
+  }
+}
 
 .entries_title{
   display:flex;
