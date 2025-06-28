@@ -1,0 +1,157 @@
+.home{
+  position: relative;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 4em;
+  color:hsl(353, 100%, 9%);
+  text-shadow: rgb(255, 0, 140) 10px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px, #FC0 2px 1px 10px;
+  transform: rotate(2deg);
+  z-index: 1;
+}
+
+body{
+background-color: #90870e;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+overflow-x: hidden;  
+background-image: url(/images/transparentTuring.png);
+background-blend-mode: color-burn;
+/*transform: translate3d(0,0,0); */
+background-repeat: no-repeat;
+}
+
+#redWord1{
+  color: hsl(353, 100%, 50%);
+}
+#redWord2{
+  color: hsl(353, 100%, 50%);
+}
+#redWord3{
+  color: hsl(353, 100%, 50%);
+}
+
+#finger{
+  width: 100%;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+.red{
+  display: inline-block;
+}
+
+#fingerLabel{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+#group{
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #800080;
+}
+
+/* visited link */
+a:visited {
+  color: hsl(247, 100%, 31%);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+  color:#8b7a3a;;
+  filter: invert(1);
+  mix-blend-mode:difference;
+}
+
+.title{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin: 0; /* Remove all margins */
+  padding: 0; /* Remove all padding */
+  text-align: center;
+  font-family: "Lapidary333Regular";
+  font-size: 10em;
+  font-weight: 200;
+  color:hsla(354, 100%, 2%, 0.91);
+  text-shadow: #08002e39 2px 1px 2px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+  transform: scaley(0.333) rotate(0deg);
+  line-height: 0.333;
+}
+
+.entries_title{
+  display:flex;
+  justify-content: flex-start;
+  position: relative;
+  margin: 0; /* Remove all margins */
+  padding: 0; /* Remove all padding */
+  text-align: center;
+  text-decoration:underline dotted 150px;
+  font-family: "Lapidary333Regular";
+  font-size: 9em;
+  font-weight: 200;
+  color:hsla(354, 100%, 2%, 0.91);
+  text-shadow: #08002e39 2px 1px 2px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+  transform: scaley(0.333) rotate(0deg);
+}
+@media (max-width: 450px) {
+  .entries_title{
+      font-size: 7em;
+  }
+  
+}
+
+
+.entries_list{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  height:0.1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.8em;
+  text-wrap: wrap;
+  text-align: left;
+  font-family: "Lapidary333Italic";
+  font-size: 9em;
+  font-weight: 200;
+  color:hsl(247, 100%, 50%);
+  text-shadow: rgba(0, 4, 255, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
+  transform: scaley(0.33) rotate(0deg);
+  text-decoration: underline;
+  text-decoration-thickness: 25px;
+  line-height: 1;
+}
+@media (max-width: 800px) {
+  .entries_list{
+    font-size: 19vw;
+  }
+}
+@media (max-width: 550px) {
+  .entries_list{
+    font-size: 19vw;
+      margin-bottom: 1em;
+  }
+}
+  
+  

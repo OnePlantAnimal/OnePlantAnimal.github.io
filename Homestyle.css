@@ -238,7 +238,7 @@ body{
     font-family: "Lapidary333Italic";
     font-size: 9em;
     font-weight: 200;
-    color:hsl(247, 100%, 50%);
+    color:hsl(247, 100%, 33%);
     text-shadow: rgba(0, 4, 255, 0.369) 2px 1px 3px,  rgba(55, 0, 54, 0.084) 5px 1px 8px;
     transform: scaley(0.33) rotate(0deg);
     text-decoration: underline;
@@ -246,6 +246,12 @@ body{
 }
 @media (max-width: 1400px) {
     .page_list{
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .page_list{
+        font-size: 19vw;
         justify-content: center;
     }
 }
@@ -287,7 +293,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: hsl(247, 100%, 50%);
+    color: hsl(247, 100%, 22%);
   }
   
 
