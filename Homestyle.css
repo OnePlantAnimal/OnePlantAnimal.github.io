@@ -11,6 +11,13 @@
     src: url(fontfaces/Lapidary_333/Lapidary_333_Regular/Lapidary_333_Regular.otf)
 }
 
+@media screen {
+    html {
+      color-profile: sRGB;
+      rendering-intent: auto;
+    }
+  }
+
 /*
 @keyframes pulse {
     0%, 100% {
