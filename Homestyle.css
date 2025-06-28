@@ -270,8 +270,8 @@ body{
     text-decoration: underline;
     text-decoration-thickness: 25px;
 }
-@media (max-width: 768px) {
-    .your-text {
+@media (max-width: 560px) {
+    .page_list {
       font-weight: bold;
     }
   }

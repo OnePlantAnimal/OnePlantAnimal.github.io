@@ -21,9 +21,14 @@ body{
     overflow-x: hidden;  
     animation: pulse 77s infinite;
     background-image: url(images/transparentTuring.png);
-    font-family: "Cormorant Garamond", serif;
-    font-style:normal;
+    font-family: 'Cormorant Garamond';
+    font-weight: normal;
     background-repeat:unset;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
 }
 
 #redWord1{
