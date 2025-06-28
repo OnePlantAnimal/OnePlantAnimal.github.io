@@ -18,6 +18,18 @@
     }
   }
 
+  @media (max-width: 850px) {
+    .title_top {
+        /* Your existing styles... */
+        text-shadow: rgba(255, 0, 140, 0.4) 10px 1px 8px, rgba(255, 204, 0, 0.5) 2px 1px 10px, rgba(255, 204, 0, 0.5) 2px 1px 8px, rgba(255, 204, 0, 0.4) 2px 1px 6px, rgba(255, 204, 0, 0.35) 2px 1px 6px;
+    }
+    
+    .blurb {
+        /* Your existing styles... */
+        text-shadow: rgba(255, 204, 0, 0.5) 3px 2px 5px, rgba(255, 0, 140, 0.17) 5px 2px 5px, hsla(264, 100%, 50%, 0.22) 10px 2px 5px;
+    }
+}
+
 /*
 @keyframes pulse {
     0%, 100% {
