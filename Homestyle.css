@@ -296,5 +296,11 @@ a:visited {
     color: hsl(247, 100%, 22%);
   }
   
-
+  .page_list a,
+  .page_list a:link{
+    color: #800080;
+  }
+  .page_list a:visited {
+      color: hsl(247, 100%, 22%);
+  }
   
