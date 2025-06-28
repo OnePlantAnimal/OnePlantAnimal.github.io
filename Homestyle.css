@@ -44,6 +44,7 @@
 
 body{
     background-color: #5b0b0060;
+ 
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -52,6 +53,10 @@ body{
     background-blend-mode: color-burn;
     /*transform: translate3d(0,0,0); */
     background-repeat: no-repeat;
+}
+@media (max-width: 750px) {
+    .body {
+        background-color: #0e905c; }
 }
 
 .title_container{
