@@ -11,7 +11,7 @@
   z-index: 1;
 }
 
-body{
+html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -27,7 +27,7 @@ body{
   text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px, rgba(55, 0, 54, 0.084) 5px 1px 8px;
 }
 
-body::before {
+html::before {
   content: '';
   position: fixed;
   top: 0;
