@@ -23,7 +23,7 @@ overflow-x: hidden;
 background-image: url(/images/transparentTuring.png);
 background-blend-mode:color-burn;
 /*transform: translate3d(0,0,0); */
-background-repeat: unset;
+background-repeat:repeat;
 font-family: "EB Garamond";
 font-weight: normal;
 color:hsl(247, 100%, 5%);
