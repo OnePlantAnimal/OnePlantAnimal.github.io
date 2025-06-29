@@ -247,3 +247,18 @@ footer p{
     linear-gradient(to bottom, transparent 0px, black 1em, black calc(100% - 1em), transparent 100%);
   -webkit-mask-composite: source-in;
 }
+
+p.figure_label{
+  font-family: "Times";
+  font-size:1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 550px) {
+  p.figure_label{
+    font-size: 4vw;
+      margin-bottom: 1em;
+  }
+}
