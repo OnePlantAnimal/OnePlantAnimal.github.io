@@ -43,8 +43,11 @@
     */
 
 html{
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: autp;
     text-rendering: optimizeLegibility;
     -webkit-appearance: none;
     -moz-appearance: none;
