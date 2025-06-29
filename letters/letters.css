@@ -75,7 +75,7 @@ html::before {
 
 /* unvisited link */
 a:link {
-  color: #800080;
+  color: #460046;
 }
 
 /* visited link */
@@ -158,6 +158,7 @@ footer p{
 
 
 
+
 .entries_list{
   display:flex;
   flex-direction: row;
@@ -192,6 +193,7 @@ footer p{
       margin-bottom: 1em;
   }
 }
+
 
 
 

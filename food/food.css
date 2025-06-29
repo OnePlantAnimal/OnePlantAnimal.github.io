@@ -76,12 +76,13 @@ html::before {
 
 /* unvisited link */
 a:link {
-  color: #800080;
+  color: hsl(247, 100%, 50%);
 }
 
 /* visited link */
 a:visited {
-  color: hsl(247, 100%, 50%);
+  /* color: hsl(247, 100%, 50%); */
+  color: hsl(0, 100%, 19%);
 }
 
 p {
@@ -146,6 +147,7 @@ footer p{
   transform: scaley(0.333) rotate(0deg);
 }
 
+
 @media (max-width: 450px) {
   .entries_title{
       font-size: 7em;
@@ -188,6 +190,7 @@ footer p{
       margin-bottom: 1em;
   }
 }
+
 
 
 .post_title{

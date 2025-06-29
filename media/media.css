@@ -163,6 +163,7 @@ footer p{
 }
 
 
+
 .entries_list{
   display:flex;
   flex-direction: row;
@@ -197,6 +198,7 @@ footer p{
       margin-bottom: 1em;
   }
 }
+
 
 
 .post_title{
