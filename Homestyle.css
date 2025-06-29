@@ -42,8 +42,7 @@
   }
     */
 
-body{
-    background-color: #5b0b0060;
+html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -51,10 +50,21 @@ body{
     -moz-appearance: none;
     appearance: none;
     overflow-x: hidden;  
-    background-image: url(images/transparentTuring.png);
-    background-blend-mode: color-burn;
     /*transform: translate3d(0,0,0); */
-    background-repeat: no-repeat;
+}
+
+html::before{
+    content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #5b0b0060;
+  background-image: url(/images/transparentTuring.png);
+  background-blend-mode: color-burn;
+  background-repeat: repeat;
+  z-index: -2;
 }
 
 
