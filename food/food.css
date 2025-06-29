@@ -76,13 +76,13 @@ html::before {
 
 /* unvisited link */
 a:link {
-  color: hsl(247, 100%, 50%);
+  color: hsl(257, 100%, 50%);
 }
 
 /* visited link */
 a:visited {
   /* color: hsl(247, 100%, 50%); */
-  color: hsl(0, 100%, 19%);
+  color: hsl(247, 100%, 50%);
 }
 
 p {
@@ -162,6 +162,7 @@ footer p{
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
+  word-break:break-word;
   height:0.1em;
   margin-left: 0.1em;
   margin-right: 0.1em;
@@ -181,12 +182,12 @@ footer p{
 }
 @media (max-width: 800px) {
   .entries_list{
-    font-size: 19vw;
+    font-size: 18vw;
   }
 }
 @media (max-width: 550px) {
   .entries_list{
-    font-size: 19vw;
+    font-size: 18vw;
       margin-bottom: 1em;
   }
 }

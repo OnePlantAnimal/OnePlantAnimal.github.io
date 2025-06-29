@@ -164,6 +164,7 @@ footer p{
   flex-direction: row;
   justify-content: left;
   align-items: flex-start;
+  word-break:break-word;
   position: relative;
   height:0.1em;
   margin-left: 0.1em;
@@ -184,16 +185,9 @@ footer p{
 }
 @media (max-width: 800px) {
   .entries_list{
-    font-size: 19vw;
+    font-size: 18vw;
   }
 }
-@media (max-width: 550px) {
-  .entries_list{
-    font-size: 19vw;
-      margin-bottom: 1em;
-  }
-}
-
 
 
 

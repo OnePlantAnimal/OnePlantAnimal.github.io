@@ -1,7 +1,7 @@
 const matrix = [
     ["Feedback enthusiast", "Cybernetician", "Jargon Proponent", "Dreamer", "Paramusical", "Jokester"],
     ["Tea Zealot", "Musician", "Improvisor", "Synthesynthesist", "Bergsonist"],
-    ["College Student", "Solid Guy", "Electrical Engineer", "Test Taker", "Instrumentist", "Multi-disciplinary Creative"]
+    ["College Student", "Solid Guy", "Electrical Engineer", "Good Test Taker", "Instrumentist", "Multi-disciplinary Creative"]
 ];
 
 const red1 = matrix[0][Math.floor(Math.random()*matrix[0].length)];

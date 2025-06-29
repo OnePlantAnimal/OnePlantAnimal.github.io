@@ -134,9 +134,9 @@ footer p{
   transform: scaley(0.333) rotate(0deg);
   line-height: 0.333;
 }
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .title {
-    font-size: 30vw;
+    font-size: 20vw;
   }
 }
 
@@ -170,6 +170,7 @@ footer p{
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
+  word-break:break-word;
   height:0.1em;
   margin-left: 0.1em;
   margin-right: 0.1em;
@@ -189,12 +190,12 @@ footer p{
 }
 @media (max-width: 800px) {
   .entries_list{
-    font-size: 19vw;
+    font-size: 18vw;
   }
 }
 @media (max-width: 550px) {
   .entries_list{
-    font-size: 19vw;
+    font-size: 18vw;
       margin-bottom: 1em;
   }
 }
