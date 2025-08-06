@@ -24,7 +24,7 @@ html{
   font-family: "EB Garamond";
   font-weight: normal;
   color: hsl(247, 100%, 5%);
-  text-shadow: rgba(0, 1, 70, 0.369) 2px 1px 3px, rgba(55, 0, 54, 0.084) 5px 1px 8px;
+  text-shadow: rgba(0, 1, 43, 0.369) 2px 1px 3px, rgba(55, 0, 54, 0.084) 5px 1px 8px;
 }
 
 html::before {

@@ -31,15 +31,14 @@ h1 {
   font-weight: 400;
 }
 
-#redWord1{
+.red{
+  display: inline-block;
   color: hsl(353, 100%, 50%);
 }
-#redWord2{
-  color: hsl(353, 100%, 50%);
+.aan{
+  display: inline-block;
 }
-#redWord3{
-  color: hsl(353, 100%, 50%);
-}
+
 
 #finger{
   width: 100%;
@@ -47,10 +46,6 @@ h1 {
 
 img:hover {
   transform: scaleX(-1);
-}
-
-.red{
-  display: inline-block;
 }
 
 #fingerLabel{
