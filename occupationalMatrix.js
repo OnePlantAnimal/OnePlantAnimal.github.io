@@ -1,9 +1,9 @@
 const matrix = [
-    ["a", "an", "a", "an", "a", "an", "a", "an", "a", "a"],
-    ["Huge", "Unrepentant", "Wayward", "Evil", "Suspicious", "Untimely", "Greasy", "Awesome", "Teeny-Tiny", "Jocular"],
+    ["a", "an", "a", "an", "a", "a", "an", "a", "a"],
+    ["Huge", "Unrepentant", "Wayward", "Evil", "Suspicious", "Greasy", "Awesome", "Teeny-Tiny", "Jocular"],
     ["Machine", "Feedback enthusiast", "Cybernetician", "Jargon Proponent", "Dreamer", "Paramusical", "Jokester", "Thing", "Bungler"],
     ["Tea Zealot", "Musician", "Improvisor", "Synthesynthesist", "Bergsonist", "Elitist", "Lout", "Creature"],
-    ["College Student", "Hoon", "Solid Guy", "Electrical Engineer", "Instrumentist", "Multi-disciplinary Creative", "Schemer", "Future Old Man, God Willing"]
+    ["College Student", "Loon", "Solid Guy", "Electrical Engineer", "Instrumentist", "Multi-disciplinary Creative", "Schemer", "Future Old Man, God Willing"]
 ];
 
 const firstRand = Math.floor(Math.random()*matrix[0].length);

@@ -104,6 +104,9 @@ p.figure_label{
   text-wrap: wrap;
   justify-content: center;
 }
+p.margin {
+  margin: 2.5em; /* or whatever indent size you prefer */
+}
 
 footer p{
   position: fixed;
